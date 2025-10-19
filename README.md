@@ -29,7 +29,7 @@ STEP-4: Multiply the two matrices to obtain the cipher text of length three.
 STEP-5: Combine all these groups to get the complete cipher text.
 
 ## PROGRAM 
-``
+```
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -79,7 +79,7 @@ int main() {
   hill(msg, enc, 1); printf("Encrypted: %s\n", enc);
   hill(enc, dec, 0); printf("Decrypted: %s\n", dec);
 }
-``
+```
 
 ## OUTPUT
 
